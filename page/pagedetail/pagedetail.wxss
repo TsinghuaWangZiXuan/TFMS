@@ -1,0 +1,6 @@
+/* page/pagedetail.wxss */
+
+.input1{
+    border:2rpx solid black;
+    text-align: center;
+}

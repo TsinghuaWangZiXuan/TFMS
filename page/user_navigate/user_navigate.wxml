@@ -1,0 +1,36 @@
+<tabBar id="tabbar" active="0"></tabBar>
+<!--地图容器-->
+<view class="page-body">
+  <view class="page-section page-section-gap">
+    <map
+      id="myMap"
+      style="width: 100%; height: 330px;"
+      latitude="{{latitude}}"
+      longitude="{{longitude}}"
+      min-scale="{{minscale}}"
+      max-scale="{{maxscale}}"
+      polyline="{{polyline}}"
+      show-location
+    ></map>
+  </view>
+</view>
+
+<form bindsubmit="formSubmit">
+    <view class="main">
+      <view class="top-title">起点默认为所在位置</view>
+      <view class="form-content">
+        <view class="form-item">
+            <view class="left">终点选择</view>
+            <picker range="{{array}}" bindchange="bindPickerChange" name='dest'>
+                <view class="select-box">
+                    <input class="right-input" disabled="{{true}}" value="{{array[index]}}" placeholder="请选择终点" />
+                </view>
+            </picker>
+        </view>
+      </view>
+    </view>
+    <!--提交表单数据-->
+    <view class="bottom">
+        <button class="save-btn" form-type="submit">提交</button>
+    </view>
+</form>

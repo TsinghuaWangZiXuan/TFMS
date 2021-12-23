@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "路况查询",
+  "usingComponents": {
+    "table": "../../components/table/table",
+    "tabBar": "/custom-tab-bar/index"
+  }
+}

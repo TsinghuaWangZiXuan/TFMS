@@ -1,0 +1,144 @@
+<view class="c-minheight wx-view_RUFx1n" data-c_e_id="wx_view_24f5838b">
+    <view class="wx-view_IfJZkK" data-c_e_id="wx_view_6df67227">
+        <view class="wx-view_u7aIQl" data-c_e_id="wx_viewe6eb0604">
+            <image class="wx-image_SC1alK" data-c_e_id="wx_imageb4843f3b" mode="aspectFill" src="http://qty83k.creatby.com/materials/200379/origin/49a526c4867db3c4a8a64dbc7a6db0c8_origin.png" style="background-size:  cover; background-position:  center center; background-repeat:  no-repeat; background-image: url(http://qty83k.creatby.com/materials/200379/origin/49a526c4867db3c4a8a64dbc7a6db0c8_origin.png); "/>
+            <view class="wx-view_3ggkNG" data-c_e_id="wx_view176871e8">
+                <text class="c-block wx-text_yvWBsn" data-c_e_id="wx_text3e7862f8">清华大学</text>
+                <text class="c-block wx-text_yvWBsn2" data-c_e_id="wx_texte70834a0">Beijing</text>
+            </view>
+        </view>
+        <text class="c-block wx-text_AbraUD" data-c_e_id="wx_text_2d44d8fa">后台管理系统</text>
+    </view>
+    <scroll-view class="wx-scroll-view_PmrL5K" data-c_e_id="wx_scroll_view_9b280f63" lower-threshold="50" scroll-y="True" style="overflow-x: hidden; overflow-y: auto;" upper-threshold="50">
+        <view class="wx-view_WjSmLp" data-c_e_id="wx_view_e8b374e5" >
+            <navigator class="wx-navigator_csHYE8" data-c_e_id="wx_navigator_64ea2e3b" hover-class="navigator-hover">
+                <image class="wx-image_jfWp5t" data-c_e_id="wx_image_f46aacb9" mode="aspectFill" src="http://qty83k.creatby.com/materials/200379/origin/21a2c1db3460ae40d5cadd6ad5d269f2_origin.jfif" style="background-size:   cover; background-position:   center center; background-repeat:   no-repeat; background-image: url(http://qty83k.creatby.com/materials/200379/origin/21a2c1db3460ae40d5cadd6ad5d269f2_origin.jfif); " />
+                <view wx:for="{{ne}}" wx:if="{{item.id==2}}" bindtap="godetail" data-id="{{item._id}}" >
+                    <view class="wx-view_9TxaXG" data-c_e_id="wx_view_fe6baadf">
+                        <view class="wx-view_vnhcDJ" data-c_e_id="wx_view_e7198a58">
+                            <text class="c-block wx-text_6X8CEW" data-c_e_id="wx_text3f4d125b">{{item.number}}</text>
+                        </view>
+                        <text class="c-block wx-text_VIqUJH" data-c_e_id="wx_text_79bc1ea8">{{tf.formatTime(item.time, 'yyyy-MM-dd hh:mm')}}</text>
+                    </view>
+                    <view class="wx-view_9TxaXG" data-c_e_id="wx_view_fe6baadf" style="position: absolute; left: 0rpx; top: 0rpx">
+                        <view class="wx-view_vnhcDJ" data-c_e_id="wx_view_e7198a58">
+                            <text class="c-block wx-text_6X8CEW" data-c_e_id="wx_text3f4d125b">{{item._id}}</text>
+                        </view>
+                    </view>
+                </view>
+            </navigator>
+            <navigator class="wx-navigator_csHYE8" data-c_e_id="wx_navigator7bcb7f8c" hover-class="navigator-hover">
+                <image class="wx-image_jfWp5t" data-c_e_id="wx_image42a9d9a6" mode="aspectFill" src="http://qty83k.creatby.com/materials/200379/origin/69bf4521c4b6dd810be7d7664b4314dc_origin.jpeg" style="background-size:  cover; background-position:  center center; background-repeat:  no-repeat; background-image: url(http://qty83k.creatby.com/materials/200379/origin/69bf4521c4b6dd810be7d7664b4314dc_origin.jpeg); " />
+                <view wx:for="{{ne}}" wx:if="{{item.id==1}}" bindtap="godetail" data-id="{{item._id}}">
+                    <view class="wx-view_9TxaXG" data-c_e_id="wx_view3eff1cba" style="position: absolute; left: 0rpx; bottom: 0rpx">
+                        <view class="wx-view_vnhcDJ" data-c_e_id="wx_view8d7673f4">
+                            <text class="c-block wx-text_6X8CEW" data-c_e_id="wx_text958be519">{{item.number}}</text>
+                        </view>
+                        <text class="c-block wx-text_VIqUJH" data-c_e_id="wx_text9b0167e8">{{tf.formatTime(item.time, 'yyyy-MM-dd hh:mm')}}</text>
+                    </view>
+                    <view class="wx-view_9TxaXG" data-c_e_id="wx_view_fe6baadf" style="position: absolute; left: 0rpx; top: 0rpx">
+                        <view class="wx-view_vnhcDJ" data-c_e_id="wx_view_e7198a58">
+                            <text class="c-block wx-text_6X8CEW" data-c_e_id="wx_text3f4d125b">{{item._id}}</text>
+                        </view>
+                    </view>
+                </view>
+            </navigator>
+            <navigator class="wx-navigator_csHYE8" data-c_e_id="wx_navigator005c22ce" hover-class="navigator-hover">
+                <image class="wx-image_jfWp5t" data-c_e_id="wx_imagec6c420a4" mode="aspectFill" src="http://qty83k.creatby.com/materials/200379/origin/7ccfe7731139462e006308a6a6a7b693_origin.jfif" style="background-size:  cover; background-position:  center center; background-repeat:  no-repeat; background-image: url(http://qty83k.creatby.com/materials/200379/origin/7ccfe7731139462e006308a6a6a7b693_origin.jfif); " />
+                <view wx:for="{{ne}}" wx:if="{{item.id==4}}" bindtap="godetail" data-id="{{item._id}}">
+                    <view class="wx-view_9TxaXG" data-c_e_id="wx_view150e57e2">
+                        <view class="wx-view_vnhcDJ" data-c_e_id="wx_view5ffd1aca">
+                            <text class="c-block wx-text_6X8CEW" data-c_e_id="wx_text8a0037f3">{{item.number}}</text>
+                        </view>
+                        <text class="c-block wx-text_VIqUJH" data-c_e_id="wx_text573384db">{{tf.formatTime(item.time, 'yyyy-MM-dd hh:mm')}}</text>
+                    </view>
+                    <view class="wx-view_9TxaXG" data-c_e_id="wx_view_fe6baadf" style="position: absolute; left: 0rpx; top: 0rpx">
+                        <view class="wx-view_vnhcDJ" data-c_e_id="wx_view_e7198a58">
+                            <text class="c-block wx-text_6X8CEW" data-c_e_id="wx_text3f4d125b">{{item._id}}</text>
+                        </view>
+                    </view>
+                </view>
+            </navigator>
+            <navigator class="wx-navigator_csHYE8" data-c_e_id="wx_navigatorb1a9b2a8" hover-class="navigator-hover">
+                <image class="wx-image_jfWp5t" data-c_e_id="wx_image276d38f7" mode="aspectFill" src="http://qty83k.creatby.com/materials/200379/origin/63ebcce0cb64a9956686235520e66620_origin.jfif" style="background-size:  cover; background-position:  center center; background-repeat:  no-repeat; background-image: url(http://qty83k.creatby.com/materials/200379/origin/63ebcce0cb64a9956686235520e66620_origin.jfif); " />
+                <view wx:for="{{ne}}" wx:if="{{item.id==3}}" bindtap="godetail" data-id="{{item._id}}">
+                    <view class="wx-view_9TxaXG" data-c_e_id="wx_view135fbf8d">
+                        <view class="wx-view_vnhcDJ" data-c_e_id="wx_viewd85cc7d4">
+                            <text class="c-block wx-text_6X8CEW" data-c_e_id="wx_textb24bbe4f">{{item.number}}</text>
+                        </view>
+                        <text class="c-block wx-text_VIqUJH" data-c_e_id="wx_text87433d39">{{tf.formatTime(item.time, 'yyyy-MM-dd hh:mm')}}</text>
+                    </view>
+                    <view class="wx-view_9TxaXG" data-c_e_id="wx_view135fbf8d" style="position: absolute; left: 0rpx; top: 0rpx">
+                        <view class="wx-view_vnhcDJ" data-c_e_id="wx_viewd85cc7d4">
+                            <text class="c-block wx-text_6X8CEW" data-c_e_id="wx_text3f4d125b">{{item._id}}</text>
+                        </view>
+                    </view>
+                </view>
+            </navigator>
+            <navigator class="wx-navigator_csHYE8" data-c_e_id="wx_navigator3fb747b0" hover-class="navigator-hover">
+                <image class="wx-image_jfWp5t" data-c_e_id="wx_image1b6b98cf" mode="aspectFill" src="http://qty83k.creatby.com/materials/200379/origin/6a509b3fe9403ee138e64b715ab0b1ad_origin.jfif" style="background-size:  cover; background-position:  center center; background-repeat:  no-repeat; background-image: url(http://qty83k.creatby.com/materials/200379/origin/6a509b3fe9403ee138e64b715ab0b1ad_origin.jfif); " />
+                <view wx:for="{{ne}}" wx:if="{{item.id==5}}" bindtap="godetail" data-id="{{item._id}}">
+                    <view class="wx-view_9TxaXG" data-c_e_id="wx_view088cb2ca">
+                        <view class="wx-view_vnhcDJ" data-c_e_id="wx_view326aaf8b">
+                            <text class="c-block wx-text_6X8CEW" data-c_e_id="wx_text33d2c695">{{item.number}}</text>
+                        </view>
+                        <text class="c-block wx-text_VIqUJH" data-c_e_id="wx_text46579a31">{{tf.formatTime(item.time, 'yyyy-MM-dd hh:mm')}}</text>
+                    </view>
+        
+                    <view class="wx-view_9TxaXG" data-c_e_id="wx_view088cb2ca" style="position: absolute; left: 0rpx; top: 0rpx">
+                        <view class="wx-view_vnhcDJ" data-c_e_id="wx_view326aaf8b">
+                            <text class="c-block wx-text_6X8CEW" data-c_e_id="wx_text3f4d125b">{{item._id}}</text>
+                        </view>
+                    </view>
+                </view>
+            </navigator>
+            <navigator class="wx-navigator_csHYE8" data-c_e_id="wx_navigator3fb747b0" hover-class="navigator-hover">
+                <image class="wx-image_jfWp5t" data-c_e_id="wx_image1b6b98cf" mode="aspectFill" src="http://qty83k.creatby.com/materials/200379/origin/6a509b3fe9403ee138e64b715ab0b1ad_origin.jfif" style="background-size:  cover; background-position:  center center; background-repeat:  no-repeat; background-image: url(http://qty83k.creatby.com/materials/200379/origin/6a509b3fe9403ee138e64b715ab0b1ad_origin.jfif); " />
+                <view wx:for="{{ne}}" wx:if="{{item.id==6}}" bindtap="godetail" data-id="{{item._id}}">
+                    <view class="wx-view_9TxaXG" data-c_e_id="wx_view088cb2ca">
+                        <view class="wx-view_vnhcDJ" data-c_e_id="wx_view326aaf8b">
+                            <text class="c-block wx-text_6X8CEW" data-c_e_id="wx_text33d2c695">{{item.number}}</text>
+                        </view>
+                        <text class="c-block wx-text_VIqUJH" data-c_e_id="wx_text46579a31">{{tf.formatTime(item.time, 'yyyy-MM-dd hh:mm')}}</text>
+                    </view>
+        
+                    <view class="wx-view_9TxaXG" data-c_e_id="wx_view088cb2ca" style="position: absolute; left: 0rpx; top: 0rpx">
+                        <view class="wx-view_vnhcDJ" data-c_e_id="wx_view326aaf8b">
+                            <text class="c-block wx-text_6X8CEW" data-c_e_id="wx_text3f4d125b">{{item._id}}</text>
+                        </view>
+                    </view>
+                </view>
+            </navigator>                      
+        </view>
+        <text class="c-block wx-text_rDzX07" data-c_e_id="wx_text_e34a2a49">Tsinghua Univ</text>
+    </scroll-view>
+</view>
+
+<wxs module="tf">
+var formatTime = function (strDate, format = "yyyy-MM-dd hh:mm") {
+    var realDate = strDate ? getDate(strDate.replace(getRegExp('-', 'g'), '/')) : getDate();
+    var regYear = getRegExp("(y+)", "i");
+    var date = [
+        ["M+", realDate.getMonth() + 1],
+        ["d+", realDate.getDate()],
+        ["h+", realDate.getHours()],
+        ["m+", realDate.getMinutes()],
+        ["s+", realDate.getSeconds()],
+        ["q+", Math.floor((realDate.getMonth() + 3) / 3)],
+        ["S+", realDate.getMilliseconds()],
+    ];
+    var reg1 = regYear.exec(format);
+    if (reg1) {
+        format = format.replace(reg1[1], (realDate.getFullYear() + '').substring(4 - reg1[1].length));
+    }
+    for (var i = 0; i < date.length; i++) {
+        var reg2 = getRegExp("(" + date[i][0] + ")").exec(format);
+        if (reg2) {
+            format = format.replace(reg2[1], reg2[1].length == 1 ? v : ("00" + date[i][1]).substring(("" + date[i][1]).length));
+        }
+    }
+    return format;
+}
+module.exports = {
+     formatTime: formatTime,}
+</wxs>

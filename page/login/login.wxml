@@ -1,0 +1,21 @@
+<view class="c-minheight wx-view_1mKvcn" data-c_e_id="wx_view_a58814f3">
+    <view class="weui-msg__icon-area" data-c_e_id="wx_view_a47ca3b4">
+        <image class="wx-image_j4oR1j" data-c_e_id="wx_image_4135fb8c" mode="scaleToFill" src="http://qty83k.creatby.com/materials/200406/origin/06eb70628e621c186acc9a4fd79da192_origin.png" style="background-size:    100% 100%; background-position:    0% 0%; background-repeat:    no-repeat; background-image: url(http://qty83k.creatby.com/materials/200406/origin/06eb70628e621c186acc9a4fd79da192_origin.png); "/>
+    </view>
+    <view class="weui-msg__text-area" data-c_e_id="wx_view_8ba08e07">
+        <text class="c-block Text" data-c_e_id="wx_text6a645d46">管理员登录</text>
+        <view class="wx-view_viYnRn" data-c_e_id="wx_view_7a14b9b7">
+            <text class="wx-text_Z7gRmu" data-c_e_id="wx_text_92937079">用户名：</text>
+            <input class="wx-input_iXs4iy" data-c_e_id="wx_input_4a851715" name="input1" placeholder="请输入用户名" type="string" bindinput="userNameInput"/>
+        </view>
+        <view class="wx-view_vTOSUt" data-c_e_id="wx_view_268d18d8">
+            <text class="wx-text_Z7gRmu" data-c_e_id="wx_text08613087">密码：</text>
+            <input class="wx-input_0Gl71y" data-c_e_id="wx_input_1b3f42f6" name="input1" password="{{!open}}" placeholder="请输入密码" type="string" bindinput="userPasswordInput"/>
+        </view>
+    </view>
+    <view class="weui-msg__opr-area" data-c_e_id="wx_view_0a66aedb">
+        <button bindtap="logIn" class="Button" data-c_e_id="wx_button_a9d6c57e" size="default">
+            登录
+        </button>
+    </view>
+</view>

@@ -1,0 +1,15 @@
+<tabBar id="tabbar" active="1"></tabBar>
+<view class="page-body">
+  <view class="page-section page-section-gap">
+    <map
+      id="myMap"
+      style="width: 100%; height: 87vh;"
+      latitude="{{latitude}}"
+      longitude="{{longitude}}"
+      min-scale="{{minscale}}"
+      max-scale="{{maxscale}}"
+      markers="{{markers}}"
+      show-location
+    ></map>
+  </view>
+</view>

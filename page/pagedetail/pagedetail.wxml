@@ -1,0 +1,70 @@
+<!--page/pagedetail/pagedetail.wxml-->
+<view class="d">
+    <view class="wx-view_IfJZkK" data-c_e_id="wx_view_6df67227">
+        <view class="wx-view_u7aIQl" data-c_e_id="wx_viewe6eb0604">
+            <image class="wx-image_SC1alK" data-c_e_id="wx_imageb4843f3b" mode="aspectFill" src="http://qty83k.creatby.com/materials/200379/origin/49a526c4867db3c4a8a64dbc7a6db0c8_origin.png" style="background-size:  cover; background-position:  center center; background-repeat:  no-repeat; background-image: url(http://qty83k.creatby.com/materials/200379/origin/49a526c4867db3c4a8a64dbc7a6db0c8_origin.png); "/>
+            <view class="wx-view_3ggkNG" data-c_e_id="wx_view176871e8">
+                <text class="c-block wx-text_yvWBsn" data-c_e_id="wx_text3e7862f8">清华大学</text>
+                <text class="c-block wx-text_yvWBsn2" data-c_e_id="wx_texte70834a0">Beijing</text>
+            </view>
+        </view>
+        <text class="c-block wx-text_AbraUD" data-c_e_id="wx_text_2d44d8fa">后台管理系统</text>
+    </view>
+    <view class="pagedetail" style="width: 467rpx; height: 200rpx; display: block; box-sizing: border-box">
+    </view>
+    <view class="pagedetail" style="text-align: center; height: 80rpx;">
+        <test class="left" style="color: #7c307c; font-weight:  900;">地点: </test><text class="right" style="color: #7c307c; font-weight:  900;">{{pos._id}}</text>
+    </view>
+    <view class="pagedetail" style="text-align: center; height: 80rpx;">
+        <test class="left" style="color: #7c307c; font-weight:  900;">人流量: </test><text class="right" style="color: #7c307c; font-weight:  900;">{{pos.number}}</text>
+    </view>
+    <view class="pagedetail" style="text-align: center; height: 80rpx;">
+        <test class="left" style="color: #7c307c; font-weight:  900;">时间: </test><text class="right" style="color: #7c307c; font-weight:  900;">{{tf.formatTime(pos.time)}}</text>
+    </view>
+</view>
+
+<view style="position: relative; width: 713rpx; background: #ffffff; height: 150rpx; display: block; box-sizing: border-box; left: 19rpx; top: 54rpx">
+    <text style="color: #7c307c; font-weight:  900;">\n更新人流量:</text>
+    <input class="input1" placeholder="设置人流量" type="number" bindinput="getNewFlow"></input>
+</view>
+
+        
+
+    <button class="Button" bindtap="update" style="width: 575rpx; height: 101rpx; display: block; box-sizing: border-box; left: 0rpx; top: 162rpx; position: relative">更新数据</button>
+
+    
+
+
+<wxs module="tf">
+var formatTime = function (strDate, format = "yyyy-MM-dd hh:mm") {
+    var realDate = strDate ? getDate(strDate.replace(getRegExp('-', 'g'), '/')) : getDate();
+    var regYear = getRegExp("(y+)", "i");
+    var date = [
+        ["M+", realDate.getMonth() + 1],
+        ["d+", realDate.getDate()],
+        ["h+", realDate.getHours()],
+        ["m+", realDate.getMinutes()],
+        ["s+", realDate.getSeconds()],
+        ["q+", Math.floor((realDate.getMonth() + 3) / 3)],
+        ["S+", realDate.getMilliseconds()],
+    ];
+    var reg1 = regYear.exec(format);
+    if (reg1) {
+        format = format.replace(reg1[1], (realDate.getFullYear() + '').substring(4 - reg1[1].length));
+    }
+    for (var i = 0; i < date.length; i++) {
+        var reg2 = getRegExp("(" + date[i][0] + ")").exec(format);
+        if (reg2) {
+            format = format.replace(reg2[1], reg2[1].length == 1 ? v : ("00" + date[i][1]).substring(("" + date[i][1]).length));
+        }
+    }
+    return format;
+}
+module.exports = {
+     formatTime: formatTime,}
+</wxs>
+
+
+
+
+
