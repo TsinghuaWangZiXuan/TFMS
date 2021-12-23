@@ -143,7 +143,7 @@ Page({
     update(){
         var that = this;
         var stNewTime=that.data.currentYear+'-'+that.data.currentMonth+'-'+that.data.currentDate+' '+that.data.currentHour+':'+that.data.currentMinute+':00';
-        let cnNewTime=new Date(stNewTime);
+        let cnNewTime=new Date();
         newTime=cnNewTime.toString();
         if(newFlow==""){
             wx.showToast({

@@ -3,7 +3,7 @@
   <view class="page-section page-section-gap">
     <map
       id="myMap"
-      style="width: 100%; height: 970rpx;"
+      style="width: 100%; height: 1000rpx;"
       latitude="{{latitude}}"
       longitude="{{longitude}}"
       min-scale="{{minscale}}"

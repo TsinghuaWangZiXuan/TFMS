@@ -40,7 +40,7 @@ var formatTime = function (strDate, format = "yyyy-MM-dd hh:mm") {
     var realDate = strDate ? getDate(strDate.replace(getRegExp('-', 'g'), '/')) : getDate();
     var regYear = getRegExp("(y+)", "i");
     var date = [
-        ["M+", realDate.getMonth() + 1],
+        ["M+", realDate.getMonth()+1],
         ["d+", realDate.getDate()],
         ["h+", realDate.getHours()],
         ["m+", realDate.getMinutes()],
