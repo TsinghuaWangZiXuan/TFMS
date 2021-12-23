@@ -12,7 +12,7 @@
     <scroll-view class="wx-scroll-view_PmrL5K" data-c_e_id="wx_scroll_view_9b280f63" lower-threshold="50" scroll-y="True" style="overflow-x: hidden; overflow-y: auto;" upper-threshold="50">
         <view class="wx-view_WjSmLp" data-c_e_id="wx_view_e8b374e5" >
             <navigator class="wx-navigator_csHYE8" data-c_e_id="wx_navigator_64ea2e3b" hover-class="navigator-hover">
-                <image class="wx-image_jfWp5t" data-c_e_id="wx_image_f46aacb9" mode="aspectFill" src="http://qty83k.creatby.com/materials/200379/origin/21a2c1db3460ae40d5cadd6ad5d269f2_origin.jfif" style="background-size:   cover; background-position:   center center; background-repeat:   no-repeat; background-image: url(http://qty83k.creatby.com/materials/200379/origin/21a2c1db3460ae40d5cadd6ad5d269f2_origin.jfif); " />
+                <image class="wx-image_jfWp5t" data-c_e_id="wx_image_f46aacb9" mode="aspectFill" src="../../images/人文社科.jpg" style="background-size:   cover; background-position:   center center; background-repeat:   no-repeat; " />
                 <view wx:for="{{ne}}" wx:if="{{item.id==2}}" bindtap="godetail" data-id="{{item._id}}" >
                     <view class="wx-view_9TxaXG" data-c_e_id="wx_view_fe6baadf">
                         <view class="wx-view_vnhcDJ" data-c_e_id="wx_view_e7198a58">
@@ -28,7 +28,7 @@
                 </view>
             </navigator>
             <navigator class="wx-navigator_csHYE8" data-c_e_id="wx_navigator7bcb7f8c" hover-class="navigator-hover">
-                <image class="wx-image_jfWp5t" data-c_e_id="wx_image42a9d9a6" mode="aspectFill" src="http://qty83k.creatby.com/materials/200379/origin/69bf4521c4b6dd810be7d7664b4314dc_origin.jpeg" style="background-size:  cover; background-position:  center center; background-repeat:  no-repeat; background-image: url(http://qty83k.creatby.com/materials/200379/origin/69bf4521c4b6dd810be7d7664b4314dc_origin.jpeg); " />
+                <image class="wx-image_jfWp5t" data-c_e_id="wx_image42a9d9a6" mode="aspectFill" src="../../images/听涛园.jpg" style="background-size:  cover; background-position:  center center; background-repeat:  no-repeat; " />
                 <view wx:for="{{ne}}" wx:if="{{item.id==1}}" bindtap="godetail" data-id="{{item._id}}">
                     <view class="wx-view_9TxaXG" data-c_e_id="wx_view3eff1cba" style="position: absolute; left: 0rpx; bottom: 0rpx">
                         <view class="wx-view_vnhcDJ" data-c_e_id="wx_view8d7673f4">
@@ -44,7 +44,7 @@
                 </view>
             </navigator>
             <navigator class="wx-navigator_csHYE8" data-c_e_id="wx_navigator005c22ce" hover-class="navigator-hover">
-                <image class="wx-image_jfWp5t" data-c_e_id="wx_imagec6c420a4" mode="aspectFill" src="http://qty83k.creatby.com/materials/200379/origin/7ccfe7731139462e006308a6a6a7b693_origin.jfif" style="background-size:  cover; background-position:  center center; background-repeat:  no-repeat; background-image: url(http://qty83k.creatby.com/materials/200379/origin/7ccfe7731139462e006308a6a6a7b693_origin.jfif); " />
+                <image class="wx-image_jfWp5t" data-c_e_id="wx_imagec6c420a4" mode="aspectFill" src="../../images/六教.jpg" style="background-size:  cover; background-position:  center center; background-repeat:  no-repeat;" />
                 <view wx:for="{{ne}}" wx:if="{{item.id==4}}" bindtap="godetail" data-id="{{item._id}}">
                     <view class="wx-view_9TxaXG" data-c_e_id="wx_view150e57e2">
                         <view class="wx-view_vnhcDJ" data-c_e_id="wx_view5ffd1aca">
@@ -60,7 +60,7 @@
                 </view>
             </navigator>
             <navigator class="wx-navigator_csHYE8" data-c_e_id="wx_navigatorb1a9b2a8" hover-class="navigator-hover">
-                <image class="wx-image_jfWp5t" data-c_e_id="wx_image276d38f7" mode="aspectFill" src="http://qty83k.creatby.com/materials/200379/origin/63ebcce0cb64a9956686235520e66620_origin.jfif" style="background-size:  cover; background-position:  center center; background-repeat:  no-repeat; background-image: url(http://qty83k.creatby.com/materials/200379/origin/63ebcce0cb64a9956686235520e66620_origin.jfif); " />
+                <image class="wx-image_jfWp5t" data-c_e_id="wx_image276d38f7" mode="aspectFill" src="../../images/四教.jpg" style="background-size:  cover; background-position:  center center; background-repeat:  no-repeat; " />
                 <view wx:for="{{ne}}" wx:if="{{item.id==3}}" bindtap="godetail" data-id="{{item._id}}">
                     <view class="wx-view_9TxaXG" data-c_e_id="wx_view135fbf8d">
                         <view class="wx-view_vnhcDJ" data-c_e_id="wx_viewd85cc7d4">
@@ -76,7 +76,7 @@
                 </view>
             </navigator>
             <navigator class="wx-navigator_csHYE8" data-c_e_id="wx_navigator3fb747b0" hover-class="navigator-hover">
-                <image class="wx-image_jfWp5t" data-c_e_id="wx_image1b6b98cf" mode="aspectFill" src="http://qty83k.creatby.com/materials/200379/origin/6a509b3fe9403ee138e64b715ab0b1ad_origin.jfif" style="background-size:  cover; background-position:  center center; background-repeat:  no-repeat; background-image: url(http://qty83k.creatby.com/materials/200379/origin/6a509b3fe9403ee138e64b715ab0b1ad_origin.jfif); " />
+                <image class="wx-image_jfWp5t" data-c_e_id="wx_image1b6b98cf" mode="aspectFill" src="../../images/南区公寓.jpg" style="background-size:  cover; background-position:  center center; background-repeat:  no-repeat; " />
                 <view wx:for="{{ne}}" wx:if="{{item.id==5}}" bindtap="godetail" data-id="{{item._id}}">
                     <view class="wx-view_9TxaXG" data-c_e_id="wx_view088cb2ca">
                         <view class="wx-view_vnhcDJ" data-c_e_id="wx_view326aaf8b">
@@ -93,7 +93,7 @@
                 </view>
             </navigator>
             <navigator class="wx-navigator_csHYE8" data-c_e_id="wx_navigator3fb747b0" hover-class="navigator-hover">
-                <image class="wx-image_jfWp5t" data-c_e_id="wx_image1b6b98cf" mode="aspectFill" src="http://qty83k.creatby.com/materials/200379/origin/6a509b3fe9403ee138e64b715ab0b1ad_origin.jfif" style="background-size:  cover; background-position:  center center; background-repeat:  no-repeat; background-image: url(http://qty83k.creatby.com/materials/200379/origin/6a509b3fe9403ee138e64b715ab0b1ad_origin.jfif); " />
+                <image class="wx-image_jfWp5t" data-c_e_id="wx_image1b6b98cf" mode="aspectFill" src="../../images/游泳馆篮球场.jpg" style="background-size:  cover; background-position:  center center; background-repeat:  no-repeat;" />
                 <view wx:for="{{ne}}" wx:if="{{item.id==6}}" bindtap="godetail" data-id="{{item._id}}">
                     <view class="wx-view_9TxaXG" data-c_e_id="wx_view088cb2ca">
                         <view class="wx-view_vnhcDJ" data-c_e_id="wx_view326aaf8b">

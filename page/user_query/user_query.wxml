@@ -2,5 +2,5 @@
 <view class="container">
   <view class="title">校内重点监测路口</view>
   <table tableThemes="{{themeArr}}" tableItems="{{itemArr}}"></table>
-  <view class="remark">备注：人数少于80位路况良好，大于120严重拥堵，之间中度拥堵</view>
+  <view class="remark">备注：人数少于10位路况良好，大于20严重拥堵，之间中度拥堵</view>
 </view>

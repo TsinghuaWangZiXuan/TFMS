@@ -188,7 +188,7 @@ Page({
             m = distance;
           }
         }
-        if (m <= 10 && that.data.objectArray[i].number > 30){
+        if (m <= 10 && that.data.objectArray[i].number > 10){
           name.push(that.data.objectArray[i].name);
         }
       }
@@ -219,6 +219,6 @@ Page({
             }
           }
         })
-      },1000)
+      },10000)
     },
 })

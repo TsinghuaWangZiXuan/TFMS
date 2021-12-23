@@ -117,8 +117,18 @@ Page({
       this.mapCtx.getCenterLocation()
     },
     onLoad: function () {
-      
+      var that = this;
+      clearInterval(that)
     },
+
+  onUnload () {
+
+  },
+
+  onHide () {
+
+  },
+    
     onShow: function () {
       if (typeof this.getTabBar === 'function' &&
       this.getTabBar()) {
